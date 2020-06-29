@@ -1,4 +1,9 @@
-오늘으 git에 대해서 공부했습니다.
+---
+title: "Github_study1"
+date: 2020-06-30 02:24 +0900
+categories: study
+---
+오늘은 git에 대해서 공부했습니다.
 
 git을 사용하는 이유는 크게 3가지가 있습니다.
 1. version
