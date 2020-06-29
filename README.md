@@ -1,1 +1,0 @@
-# coolgogi.github.io
