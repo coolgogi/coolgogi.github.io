@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 locale                   : "ko-KR"
 title                    : "Coolgogi's blog"
 title_separator          : "-"
-subtitle                 : "at by best" # site tagline that appears below site title in masthead
+subtitle                 : "Computer Science" # site tagline that appears below site title in masthead
 name                     : "Coolgogi"
 description              : "description"
 url                      : "https://coolgogi.github.io"
