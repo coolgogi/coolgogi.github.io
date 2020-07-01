@@ -1,6 +1,6 @@
 ---
-title:"7월1일"
-date:2020-07-02 00:48 +0900
+title: "no_study"
+date: 2020-07-02 00:52 +0900
 categories: blog
 ---
 7월1일
