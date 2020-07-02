@@ -1,5 +1,4 @@
 ---
-title: "how to decorate blog"
 date: 2020-07-03 00:56 +0900
 categories : blog
 ---
