@@ -1,7 +1,7 @@
 ---
 title: "no_study"
 date: 2020-07-02 00:52 +0900
-categories: blog
+categories: July 1
 ---
 7월1일
 대전->포항
