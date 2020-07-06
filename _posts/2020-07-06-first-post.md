@@ -28,8 +28,9 @@ categories : July 6
 > 오늘 flutter랑 연동은 했는데, 그 database안에 있는 내용들을 어플 위에 띄우는 것을 하다가
 > 잠깐 막혀서 다시 해보는 중입니다.
 
-> 참고 예제1: 
-> 참고 예제2:
+> 참고 예제1: https://here4you.tistory.com/223?category=787559
+> 참고 예제2: https://here4you.tistory.com/224?category=787559
+> firebase : https://firebase.google.com
 
 <hr/>
 
@@ -39,6 +40,8 @@ categories : July 6
 > 그래서 오늘 front-end를 개발하기 전에 전체적인 틀을 만들었습니다.
 > 대략 어떤 user-flow로 서비스를 제공할 것인지, 어떤 페이지를 가질 것이고 페이지 안에는
 > 어떤 내용을 담을 것이고, 각 페이지끼리의 관계는 어떻게 할 것인지 정했습니다.
+
+> pdf는 따로 올리겠습니다.
 
 <hr/>
 
