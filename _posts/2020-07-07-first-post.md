@@ -1,6 +1,6 @@
 ---
 title : firebase 2
-date : 2020-07-07 00:29 +0900
+date : 2020-07-08 00:29 +0900
 categories : July 7
 ---
 
