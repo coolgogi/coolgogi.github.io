@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Coolgogi's blog!"
+title: "Happy New Year"
 date: 2022-02-17 00:48 +0900
 categories: 일기
 ---
