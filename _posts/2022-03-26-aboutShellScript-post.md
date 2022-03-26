@@ -14,22 +14,30 @@ This is from gnu.org
 
 ### $(dir <em>names...</em>)
 	Extracts the directory-part of each file name in <em>names</em>.
+
 	> $(dir src/foo.c hacks)
+	
 	result : 'src/ ./'
 
 ### $(notdir <em>names...</em>)
 	Extracts all but the directory-part of each file name in <em>names</em>.
+
 	> $(notdir src/foo.c hacks)
+	
 	result : 'foo.c hacks'
 
 ### $(suffix <em>names...</em>)
 	Extracts the suffix of each file name in <em>names</em>.
+
 	> $(suffix src/foo.c src-1.0/bar.c hacks)
+	
 	result : '.c .c'.
 
 ### $(basename <em>names...</em>)
 	Extracts all but the suffix of each file name in <em>names>,
+
 	> $(basename src/foo.c src-1.0/bar hacks)
+	
 	result : 'src/foo src-1.0/bar hacks)
 
 ### $(addsuffix <em>suffix, names...</em>)
