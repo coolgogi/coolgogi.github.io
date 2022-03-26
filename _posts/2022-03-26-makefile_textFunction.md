@@ -27,7 +27,7 @@ result : 'x.c.o bar.o'
 
 is equivalent to
 
-> $(patsubst pattern, replacement, $(var))
+	$(patsubst pattern, replacement, $(var))
 
 
 ### $(strip <em>string</em>)

@@ -1,5 +1,5 @@
 ---
-title: "Makefile"
+title: "Makefile file name function"
 date: 2022-03-26 12:30 +0900
 category: study
 ---
