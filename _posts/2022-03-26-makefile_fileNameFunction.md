@@ -13,7 +13,7 @@ This is from **[gnu.org](https://www.gnu.org/software/make/manual/html_node/File
 
 Extracts the directory-part of each file name in <em>names</em>.
 
-> $(dir src/foo.c hacks)
+	$(dir src/foo.c hacks)
 	
 result : 'src/ ./'
 
@@ -21,7 +21,7 @@ result : 'src/ ./'
 
 Extracts all but the directory-part of each file name in <em>names</em>.
 
-> $(notdir src/foo.c hacks)
+	$(notdir src/foo.c hacks)
 	
 result : 'foo.c hacks'
 
@@ -29,7 +29,7 @@ result : 'foo.c hacks'
 
 Extracts the suffix of each file name in <em>names</em>.
 
-> $(suffix src/foo.c src-1.0/bar.c hacks)
+	$(suffix src/foo.c src-1.0/bar.c hacks)
 	
 result : '.c .c'.
 
@@ -37,7 +37,7 @@ result : '.c .c'.
 
 Extracts all but the suffix of each file name in <em>names</em>,
 
-> $(basename src/foo.c src-1.0/bar hacks)
+	$(basename src/foo.c src-1.0/bar hacks)
 	
 result : 'src/foo src-1.0/bar hacks)
 
@@ -45,7 +45,7 @@ result : 'src/foo src-1.0/bar hacks)
 
 The argument <em>names</em> is regarded as a series of names, separated by whitespace;
 
-> $(addsuffix .c, foo bor)
+	$(addsuffix .c, foo bor)
 
 result : 'foo.c bar.c'.
 
@@ -53,7 +53,7 @@ result : 'foo.c bar.c'.
 
 The argument <em>naems</em> is regarded as a series of names, separated by whitespace;
 	
-> $(addprefix src/, foo bar)
+	$(addprefix src/, foo bar)
 
 result : 'src/foo src/bar'
 
@@ -64,7 +64,7 @@ Concatenates the two arguments word by word: the two first words (one from each 
 
 concatednated form the first word of the result, the two seconde words from the second word of the result, and so on.
 
-> $(join a b,.c .o)
+	$(join a b,.c .o)
 
 result : 'a.c b.o'	
 
@@ -75,24 +75,24 @@ The argument <em>pattern</em> is a file name pattern, typically containing wildc
 
 example 1
 
-> clean :
->		rm -f *.o
+	clean :
+		rm -f *.o
 		
 example 2 
 
-> print: *.c
->		lpr -p $?
-> 		touch print
+	print: *.c
+		lpr -p $?
+		touch print
 
 example 3
 		
-> objects = *.o
+	objects = *.o
 
 objects contains '.o' not all object files.
 
 example 4
 		
-> objects := $(wildcard *.o)
+	objects := $(wildcard *.o)
 	
 objects contains all object files.
 
