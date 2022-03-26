@@ -5,7 +5,6 @@ category: study
 ---
 
 
-# Makefile
 This is from gnu.org
 
 
@@ -42,13 +41,27 @@ This is from gnu.org
 
 ### $(addsuffix <em>suffix, names...</em>)
 	The argument <em>names</em> is regarded as a series of names, separated by whitespace;
-	>(addsuffix .c, foo bor)
+
+	> $(addsuffix .c, foo bor)
+
 	result : 'foo.c bar.c'.
 
 ### $(addprefix <em>prefix, names...</em>)
+	The argument <em>naems</em> is regarded as a series of names, separated by whitespace;
+	
+	> $(addprefix src/, foo bar)
+
+	result : 'src/foo src/bar'
 
 
-### $(join <em>list, list2</em>
+### $(join <em>list, list2</em>)
+	Concatenates the two arguments word by word: the two first words (one from each argument)
+
+	concatednated form the first word of the result, the two seconde words from the second word of the result, and so on.
+
+	> $(join a b,.c .o)
+
+	result : 'a.c b.o'	
 
 
 ### $(wildcard <em>pattern</em>
