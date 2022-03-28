@@ -43,7 +43,7 @@ result : 'a b c'
 
 ### $(findstring <em>find, in</em>)
 
-Searches <em>in</em> for an occurrence of <em>find</em>. If it occurs, the value is <em>find</em>; otherwise, teh value is empty.
+Searches <em>in</em> for an occurrence of <em>find</em>. If it occurs, the value is <em>find</em>; otherwise, the value is empty.
 
 	$(findstring a,a b c)
 	$(findstring a,b c)
