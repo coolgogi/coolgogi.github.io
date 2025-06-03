@@ -10,8 +10,8 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
+# theme                  : "just-the-docs" # "minimal-mistakes-jekyll" (default), "just-the-docs", "jekyll-theme-cayman", "jekyll-theme-minimal"
+# remote_theme           : "pmarsceill/just-the-docs"
 minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -20,13 +20,13 @@ title                    : "Coolgogi's blog"
 title_separator          : "-"
 subtitle                 : "Computer Science" # site tagline that appears below site title in masthead
 name                     : "Coolgogi"
-description              : "description"
+description              : "Book/Movie/Game Reviews, Programming, Computer Science, and more"
 url                      : "https://coolgogi.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "coolgogi/coolgogi.github.io.git" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "hello_world" # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "hello world" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -280,6 +280,6 @@ defaults:
       share: true
       related: true
 
-remote_theme : mmistakes/minimal-mistakes
+remote_theme : pmarsceill/just-the-docs
 
 theme: jekyll-theme-cayman
