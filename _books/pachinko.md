@@ -4,6 +4,7 @@ title: "Pachinko review"
 description: "A review of Pachinko, a novel by Min Jin Lee"
 date: 2025-06-03
 tags: ["pachinko", "min jin lee", "review", "audio book", "novel"]
+comments: true
 ---
 # Pachinko Review
 파친코를 읽고 나서 쓰는 글.
@@ -50,3 +51,5 @@ tags: ["pachinko", "min jin lee", "review", "audio book", "novel"]
 ### 선자의 삶에 대해서
  선자의 아버지는 언청이라 불리는 구순구개열 환자에 절름발이였으므로 혼인할 나이가 되어도 동네 청년들이 혼인 상대로 생각하지 않았는데, 고한수와의 관계로 임신까지해서 결혼이 더 힘든 상황이 되었다. 이런 상황이 되었기 때문에 이삭과 결혼할 수 있었다. 오사카로 넘어가 남편 이삭을 잃게 되었지만 오사카로 넘어갔기 때문에 고한수의 도움을 받을 수 있엇다. 오사카에서 일자리를 얻어 살아갈 수 있었고 폭격으로부터 도망칠 수 있었다.  그 이후 고한수가 노아의 위치를 찾아 다시 볼 수 있었지만, 그 때문에 노아는 자살하게 된다. 선자는 고한수에게 자신의 삶을 파괴했다고 말했지만 선자의 삶은 파괴된 것일까, 어찌 저찌 이어진 것일까. 선자의 삶은 불행하다고 봐야하는 걸까. 일제 강점기와 그 이후 일본 내에 조선인의 삶 중에서는 그나마 낫다고 봐야하는 걸까. 
 
+
+{% include comments.html %}
