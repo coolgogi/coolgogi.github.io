@@ -4,6 +4,7 @@ title: "Sherlock Holmes Series A Study in Scarlet review"
 description: "A Study in Scarlet is the first novel featuring Sherlock Holmes, written by Arthur Conan Doyle."
 date: 2025-06-14
 tags: ["Sherlock Holmes", "Arthur Conan Doyle", "review", "audio book", "novel"]
+comments: true
 ---
 
 
