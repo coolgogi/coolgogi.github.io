@@ -18,6 +18,7 @@ This is my personal blog where I share my thoughts, notes, and reviews on variou
 - [Book Reviews](books/) — My short book reviews.
 - [Movie Reviews](movies/) — My short movie reviews.
 - [Game Reviews](games/) — My short game reviews.
+- [Anime Reviews](animes/) — My short anime reviews.
 - [Etc](blog/) — Everything else, including my personal projects and random thoughts.
 
 Feel free to browse via the left‐hand sidebar.
