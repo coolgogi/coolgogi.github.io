@@ -1,7 +1,9 @@
 ---
+layout: default
+title: "Anime Reviews"
 nav_order: 6
 permalink: /animes/
-title: Anime Reviews
+comments: true
 ---
 
 # Anime Review Page

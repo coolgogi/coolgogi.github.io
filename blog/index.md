@@ -1,8 +1,9 @@
 ---
 layout: default
 title: "Etc"
-nav_order: 6
+nav_order: 7
 permalink: /blog/
+comments: true
 ---
 
 # Etc page

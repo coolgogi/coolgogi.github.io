@@ -3,6 +3,7 @@ layout: default
 title: "Book Reviews"
 nav_order: 3
 permalink: /books/
+comments: true
 ---
 
 # Book Reivew Page

@@ -1,7 +1,9 @@
 ---
+layout: default
+title: CS Notes
 nav_order: 2
 permalink: /notes/
-title: CS Notes
+comments: true
 ---
 
 # CS Notes Pages

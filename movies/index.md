@@ -1,7 +1,9 @@
 ---
+layout: default
+title: "Movie Reviews"
 nav_order: 4
 permalink: /movies/
-title: Movie Reviews
+comments: true
 ---
 
 # Movie Review Page

@@ -1,7 +1,9 @@
 ---
+layout: default
+title: "Game Reviews"
 nav_order: 5
 permalink: /games/
-title: Game Reviews
+comments: true
 ---
 
 # Game Reivew Page
@@ -14,3 +16,4 @@ This is a collection of game reviews that I have written over time. Each review 
     </li>
   {% endfor %}
 </ul>
+

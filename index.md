@@ -4,10 +4,12 @@ author_profile: true
 nav_order: 1       # controls where it appears in the sidebar (optional)
 permalink: /
 title: Home
+comments: true
 ---
 
 # Welcome to CoolGogi’s blog!
 This is my personal blog where I share my thoughts, notes, and reviews on various topics. I hope you find something interesting here!
+보고 느끼고 생각한 것을 적기 위해 
 
 ## About Me
 
